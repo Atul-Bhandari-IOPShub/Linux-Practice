@@ -61,7 +61,7 @@ cp -r /etc/**/*.conf ~/etcbackup
 
 echo Use rename to rename all *.conf files to *.backup .
 
-rename .conf .backup ~/etcbackup/*.conf
+rename .conf .backup ~/etcbackup/*.conf # works in fedora
 
 
 
